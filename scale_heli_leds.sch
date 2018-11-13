@@ -1,202 +1,13 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:dk_Addressable-Specialty
-LIBS:dk_Alarms-Buzzers-and-Sirens
-LIBS:dk_Automotive-Relays
-LIBS:dk_Balun
-LIBS:dk_Barrel-Audio-Connectors
-LIBS:dk_Battery-Holders-Clips-Contacts
-LIBS:dk_Clock-Timing-Clock-Generators-PLLs-Frequency-Synthesizers
-LIBS:dk_Clock-Timing-Programmable-Timers-and-Oscillators
-LIBS:dk_Clock-Timing-Real-Time-Clocks
-LIBS:dk_Coaxial-Connectors-RF
-LIBS:dk_Current-Transducers
-LIBS:dk_Data-Acquisition-ADCs-DACs-Special-Purpose
-LIBS:dk_Data-Acquisition-Analog-to-Digital-Converters-ADC
-LIBS:dk_Data-Acquisition-Digital-Potentiometers
-LIBS:dk_Data-Acquisition-Digital-to-Analog-Converters-DAC
-LIBS:dk_Data-Acquisition-Touch-Screen-Controllers
-LIBS:dk_DC-DC-Converters
-LIBS:dk_Digital-Isolators
-LIBS:dk_Diodes-Bridge-Rectifiers
-LIBS:dk_Diodes-Rectifiers-Arrays
-LIBS:dk_Diodes-Rectifiers-Single
-LIBS:dk_Diodes-Zener-Single
-LIBS:dk_Display-Modules-LED-Character-and-Numeric
-LIBS:dk_D-Sub-Connectors
-LIBS:dk_Embedded-Microcontrollers
-LIBS:dk_Encoders
-LIBS:dk_Evaluation-Boards-Sensors
-LIBS:dk_Ferrite-Beads-and-Chips
-LIBS:dk_Fixed-Inductors
-LIBS:dk_Fuses
-LIBS:dk_Gas-Sensors
-LIBS:dk_Humidity-Moisture-Sensors
-LIBS:dk_Image-Sensors-Camera
-LIBS:dk_Infrared-UV-Visible-Emitters
-LIBS:dk_Inrush-Current-Limiters-ICL
-LIBS:dk_Interface-Analog-Switches-Multiplexers-Demultiplexers
-LIBS:dk_Interface-Analog-Switches-Special-Purpose
-LIBS:dk_Interface-Controllers
-LIBS:dk_Interface-Drivers-Receivers-Transceivers
-LIBS:dk_Interface-I-O-Expanders
-LIBS:dk_Interface-Modules
-LIBS:dk_Interface-Sensor-and-Detector-Interfaces
-LIBS:dk_Interface-Sensor-Capacitive-Touch
-LIBS:dk_Interface-Specialized
-LIBS:dk_LED-Indication-Discrete
-LIBS:dk_LEDs-Circuit-Board-Indicators-Arrays-Light-Bars-Bar-Graphs
-LIBS:dk_Linear-Amplifiers-Audio
-LIBS:dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps
-LIBS:dk_Linear-Comparators
-LIBS:dk_Logic-Buffers-Drivers-Receivers-Transceivers
-LIBS:dk_Logic-Flip-Flops
-LIBS:dk_Logic-Gates-and-Inverters
-LIBS:dk_Logic-Multivibrators
-LIBS:dk_Logic-Shift-Registers
-LIBS:dk_Logic-Signal-Switches-Multiplexers-Decoders
-LIBS:dk_Logic-Translators-Level-Shifters
-LIBS:dk_Magnetic-Sensors-Compass-Magnetic-Field-Modules
-LIBS:dk_Magnetic-Sensors-Linear-Compass-ICs
-LIBS:dk_Magnetic-Sensors-Switches-Solid-State
-LIBS:dk_Memory
-LIBS:dk_Memory-Connectors-PC-Card-Sockets
-LIBS:dk_Microphones
-LIBS:dk_Modular-Connectors-Jacks
-LIBS:dk_Modular-Connectors-Jacks-With-Magnetics
-LIBS:dk_Motion-Sensors-Accelerometers
-LIBS:dk_Motion-Sensors-IMUs-Inertial-Measurement-Units
-LIBS:dk_Motion-Sensors-Tilt-Switches
-LIBS:dk_Navigation-Switches-Joystick
-LIBS:dk_Optical-Sensors-Ambient-Light-IR-UV-Sensors
-LIBS:dk_Optical-Sensors-Photo-Detectors-Remote-Receiver
-LIBS:dk_Optical-Sensors-Photodiodes
-LIBS:dk_Optical-Sensors-Phototransistors
-LIBS:dk_Optical-Sensors-Reflective-Analog-Output
-LIBS:dk_Optoisolators-Logic-Output
-LIBS:dk_Optoisolators-Transistor-Photovoltaic-Output
-LIBS:dk_Optoisolators-Triac-SCR-Output
-LIBS:dk_Oscillators
-LIBS:dk_PMIC-AC-DC-Converters-Offline-Switchers
-LIBS:dk_PMIC-Battery-Chargers
-LIBS:dk_PMIC-Battery-Management
-LIBS:dk_PMIC-Current-Regulation-Management
-LIBS:dk_PMIC-Full-Half-Bridge-Drivers
-LIBS:dk_PMIC-Gate-Drivers
-LIBS:dk_PMIC-LED-Drivers
-LIBS:dk_PMIC-Motor-Drivers-Controllers
-LIBS:dk_PMIC-OR-Controllers-Ideal-Diodes
-LIBS:dk_PMIC-Power-Distribution-Switches-Load-Drivers
-LIBS:dk_PMIC-Power-Management-Specialized
-LIBS:dk_PMIC-RMS-to-DC-Converters
-LIBS:dk_PMIC-Supervisors
-LIBS:dk_PMIC-Thermal-Management
-LIBS:dk_PMIC-V-F-and-F-V-Converters
-LIBS:dk_PMIC-Voltage-Reference
-LIBS:dk_PMIC-Voltage-Regulators-DC-DC-Switching-Controllers
-LIBS:dk_PMIC-Voltage-Regulators-DC-DC-Switching-Regulators
-LIBS:dk_PMIC-Voltage-Regulators-Linear
-LIBS:dk_PMIC-Voltage-Regulators-Special-Purpose
-LIBS:dk_Power-Relays-Over-2-Amps
-LIBS:dk_Pressure-Sensors-Transducers
-LIBS:dk_Programmable-Oscillators
-LIBS:dk_Pushbutton-Switches
-LIBS:dk_Rectangular-Connectors-Headers-Male-Pins
-LIBS:dk_Reed-Relays
-LIBS:dk_Resistor-Networks-Arrays
-LIBS:dk_RF-Amplifiers
-LIBS:dk_RF-Antennas
-LIBS:dk_RF-Demodulators
-LIBS:dk_RF-Detectors
-LIBS:dk_RF-Evaluation-and-Development-Kits-Boards
-LIBS:dk_RFID-RF-Access-Monitoring-ICs
-LIBS:dk_RF-Receivers
-LIBS:dk_RF-Switches
-LIBS:dk_RF-Transceiver-ICs
-LIBS:dk_RF-Transceiver-Modules
-LIBS:dk_RF-Transmitters
-LIBS:dk_Rotary-Potentiometers-Rheostats
-LIBS:dk_Sensors-Transducers_Accessories
-LIBS:dk_Signal-Relays-Up-to-2-Amps
-LIBS:dk_Slide-Switches
-LIBS:dk_Solid-State-Relays
-LIBS:dk_Specialized-ICs
-LIBS:dk_Specialized-Sensors
-LIBS:dk_Surge-Suppression-ICs
-LIBS:dk_Tactile-Switches
-LIBS:dk_Temperature-Sensors-Analog-and-Digital-Output
-LIBS:dk_Thermal-Cutoffs-Thermal-Fuses
-LIBS:dk_Thyristors-DIACs-SIDACs
-LIBS:dk_Thyristors-SCRs
-LIBS:dk_Thyristors-TRIACs
-LIBS:dk_Toggle-Switches
-LIBS:dk_Transistors-Bipolar-BJT-Arrays
-LIBS:dk_Transistors-Bipolar-BJT-RF
-LIBS:dk_Transistors-Bipolar-BJT-Single
-LIBS:dk_Transistors-Bipolar-BJT-Single-Pre-Biased
-LIBS:dk_Transistors-FETs-MOSFETs-Arrays
-LIBS:dk_Transistors-FETs-MOSFETs-RF
-LIBS:dk_Transistors-FETs-MOSFETs-Single
-LIBS:dk_Transistors-JFETs
-LIBS:dk_Trimmer-Potentiometers
-LIBS:dk_TVS-Diodes
-LIBS:dk_TVS-Mixed-Technology
-LIBS:dk_USB-DVI-HDMI-Connectors
-LIBS:pkl_analog_devices
-LIBS:pkl_conn
-LIBS:pkl_cypress
-LIBS:pkl_device
-LIBS:pkl_ftdi
-LIBS:pkl_lattice
-LIBS:pkl_linear
-LIBS:pkl_logos
-LIBS:pkl_maxim
-LIBS:pkl_memory
-LIBS:pkl_misc
-LIBS:pkl_molex
-LIBS:pkl_power
-LIBS:pkl_sensor
-LIBS:pkl_silabs
-LIBS:pkl_st
-LIBS:pkl_tag_connect
-LIBS:pkl_texas
+EESchema Schematic File Version 4
 LIBS:scale_heli_leds-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Scale Heli Led Controller"
 Date "2018-05-12"
-Rev "V1.0"
+Rev "V1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -204,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATTINY85-S IC1
+L scale_heli_leds-rescue:ATTINY85-S IC1
 U 1 1 5AF77FE1
 P 5100 3900
 F 0 "IC1" H 3950 4300 50  0000 C CNN
@@ -215,7 +26,7 @@ F 3 "" H 5100 3900 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MIC5225-3.3V U3
+L scale_heli_leds-rescue:MIC5225-3.3V U3
 U 1 1 5AF782AF
 P 2750 6400
 F 0 "U3" H 2550 6600 60  0000 C CNN
@@ -226,7 +37,7 @@ F 3 "" H 2900 6050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CL320SG-G U2
+L scale_heli_leds-rescue:CL320SG-G U2
 U 1 1 5AF78849
 P 7850 3750
 F 0 "U2" H 7650 4050 60  0000 C CNN
@@ -237,7 +48,7 @@ F 3 "" H 8050 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USBLC6-2 U1
+L pkl_misc:USBLC6-2 U1
 U 1 1 5AF7899F
 P 2850 1650
 F 0 "U1" H 2850 1350 60  0000 C CNN
@@ -248,7 +59,7 @@ F 3 "" H 2850 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_USB_OTG P1
+L pkl_conn:pkl_USB_OTG P1
 U 1 1 5AF78B36
 P 1450 1650
 F 0 "P1" H 1775 1525 50  0000 C CNN
@@ -265,11 +76,9 @@ Wire Wire Line
 Wire Wire Line
 	1900 2150 1600 2150
 Wire Wire Line
-	1600 2150 1350 2150
-Wire Wire Line
 	1350 2150 1350 2050
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5AF79254
 P 1600 2250
 F 0 "#PWR01" H 1600 2000 50  0001 C CNN
@@ -286,15 +95,11 @@ NoConn ~ 1750 1750
 Wire Wire Line
 	1750 1550 2200 1550
 Wire Wire Line
-	2200 1550 2350 1550
-Wire Wire Line
 	2000 1450 1750 1450
 Wire Wire Line
 	2000 1000 2000 1100
-Wire Wire Line
-	2000 1100 2000 1450
 $Comp
-L +5V #PWR02
+L power:+5V #PWR02
 U 1 1 5AFA5ED3
 P 2000 1000
 F 0 "#PWR02" H 2000 850 50  0001 C CNN
@@ -327,7 +132,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 1650 2200 2250
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5AFA6148
 P 2200 2250
 F 0 "#PWR03" H 2200 2000 50  0001 C CNN
@@ -338,7 +143,7 @@ F 3 "" H 2200 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R3
+L scale_heli_leds-rescue:R_Small R3
 U 1 1 5AFA628F
 P 4000 1550
 F 0 "R3" V 4050 1650 50  0000 L CNN
@@ -349,7 +154,7 @@ F 3 "" H 4000 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R4
+L scale_heli_leds-rescue:R_Small R4
 U 1 1 5AFA652F
 P 4000 1750
 F 0 "R4" V 4050 1850 50  0000 L CNN
@@ -373,10 +178,8 @@ Wire Wire Line
 	3350 1650 3450 1650
 Wire Wire Line
 	3450 1250 3450 1650
-Wire Wire Line
-	3450 1650 3450 1900
 $Comp
-L +5V #PWR04
+L power:+5V #PWR04
 U 1 1 5AFA6763
 P 3450 1250
 F 0 "#PWR04" H 3450 1100 50  0001 C CNN
@@ -393,7 +196,7 @@ Wire Wire Line
 Text Label 6550 3950 0    60   ~ 0
 DM
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 5AFA69E8
 P 3450 4600
 F 0 "#PWR05" H 3450 4350 50  0001 C CNN
@@ -408,7 +211,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 4150 3450 4600
 $Comp
-L C_Small C2
+L scale_heli_leds-rescue:C_Small C2
 U 1 1 5AFA6A61
 P 3450 2000
 F 0 "C2" H 3460 2070 50  0000 L CNN
@@ -420,7 +223,7 @@ F 3 "" H 3450 2000 50  0001 C CNN
 $EndComp
 Connection ~ 3450 1650
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5AFA6AFB
 P 3450 2250
 F 0 "#PWR06" H 3450 2000 50  0001 C CNN
@@ -433,7 +236,7 @@ $EndComp
 Wire Wire Line
 	3450 2100 3450 2250
 $Comp
-L +BATT #PWR07
+L power:+BATT #PWR07
 U 1 1 5AFA7A36
 P 1450 5500
 F 0 "#PWR07" H 1450 5350 50  0001 C CNN
@@ -444,7 +247,7 @@ F 3 "" H 1450 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR08
+L power:+5V #PWR08
 U 1 1 5AFA7B4F
 P 1650 5500
 F 0 "#PWR08" H 1650 5350 50  0001 C CNN
@@ -456,7 +259,7 @@ F 3 "" H 1650 5500 50  0001 C CNN
 $EndComp
 NoConn ~ 3200 6400
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 5AFA808B
 P 3450 6900
 F 0 "#PWR09" H 3450 6650 50  0001 C CNN
@@ -473,11 +276,9 @@ Wire Wire Line
 Wire Wire Line
 	3450 5600 3450 5750
 Wire Wire Line
-	3450 5750 3450 6300
-Wire Wire Line
 	3450 6300 3200 6300
 $Comp
-L +3V3 #PWR010
+L power:+3V3 #PWR010
 U 1 1 5AFA820F
 P 3450 5600
 F 0 "#PWR010" H 3450 5450 50  0001 C CNN
@@ -488,7 +289,7 @@ F 3 "" H 3450 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1
+L scale_heli_leds-rescue:C_Small C1
 U 1 1 5AFA8311
 P 1550 6650
 F 0 "C1" H 1560 6720 50  0000 L CNN
@@ -500,7 +301,7 @@ F 3 "" H 1550 6650 50  0001 C CNN
 $EndComp
 Connection ~ 2150 6300
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 5AFA848B
 P 1550 6900
 F 0 "#PWR011" H 1550 6650 50  0001 C CNN
@@ -513,7 +314,7 @@ $EndComp
 Wire Wire Line
 	1550 6750 1550 6900
 $Comp
-L C_Small C3
+L scale_heli_leds-rescue:C_Small C3
 U 1 1 5AFA8620
 P 4300 6150
 F 0 "C3" H 4310 6220 50  0000 L CNN
@@ -524,7 +325,7 @@ F 3 "" H 4300 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 5AFA8790
 P 3850 6550
 F 0 "#PWR012" H 3850 6300 50  0001 C CNN
@@ -536,13 +337,9 @@ F 3 "" H 3850 6550 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	3450 5750 3850 5750
-Wire Wire Line
-	3850 5750 4300 5750
 Connection ~ 3450 5750
 Wire Wire Line
 	1550 6300 2150 6300
-Wire Wire Line
-	2150 6300 2300 6300
 Wire Wire Line
 	2300 6500 2150 6500
 Wire Wire Line
@@ -550,13 +347,11 @@ Wire Wire Line
 Wire Wire Line
 	1550 6200 1550 6300
 Wire Wire Line
-	1550 6300 1550 6550
-Wire Wire Line
 	3750 3650 3450 3650
 Wire Wire Line
 	3450 3650 3450 3250
 $Comp
-L +3V3 #PWR013
+L power:+3V3 #PWR013
 U 1 1 5AFA8DF2
 P 3450 3250
 F 0 "#PWR013" H 3450 3100 50  0001 C CNN
@@ -567,7 +362,7 @@ F 3 "" H 3450 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R2
+L scale_heli_leds-rescue:R_Small R2
 U 1 1 5AFA9070
 P 3850 6000
 F 0 "R2" H 3900 6100 50  0000 L CNN
@@ -587,7 +382,7 @@ Wire Wire Line
 	4300 5750 4300 6050
 Connection ~ 3850 5750
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 5AFA95D2
 P 4300 6350
 F 0 "#PWR014" H 4300 6100 50  0001 C CNN
@@ -600,7 +395,7 @@ $EndComp
 Wire Wire Line
 	4300 6250 4300 6350
 $Comp
-L R_Small R1
+L scale_heli_leds-rescue:R_Small R1
 U 1 1 5AFA9A33
 P 2200 1300
 F 0 "R1" H 2250 1400 50  0000 L CNN
@@ -618,18 +413,6 @@ Wire Wire Line
 Wire Wire Line
 	2200 1100 2000 1100
 Connection ~ 2000 1100
-Wire Wire Line
-	6450 3650 7300 3650
-Wire Wire Line
-	7300 3650 7400 3650
-Wire Wire Line
-	6450 3750 7150 3750
-Wire Wire Line
-	7150 3750 7400 3750
-Wire Wire Line
-	6450 3850 7000 3850
-Wire Wire Line
-	7000 3850 7400 3850
 Text Label 6550 3650 0    60   ~ 0
 MOSI
 Text Label 6550 3750 0    60   ~ 0
@@ -641,24 +424,20 @@ Wire Wire Line
 Text Label 6550 4150 0    60   ~ 0
 RESET
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 5AFAA84F
-P 8650 4100
-F 0 "#PWR015" H 8650 3850 50  0001 C CNN
-F 1 "GND" H 8650 3950 50  0000 C CNN
-F 2 "" H 8650 4100 50  0000 C CNN
-F 3 "" H 8650 4100 50  0000 C CNN
-	1    8650 4100
+P 8350 4100
+F 0 "#PWR015" H 8350 3850 50  0001 C CNN
+F 1 "GND" H 8350 3950 50  0000 C CNN
+F 2 "" H 8350 4100 50  0000 C CNN
+F 3 "" H 8350 4100 50  0000 C CNN
+	1    8350 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 3950 8650 3950
-Wire Wire Line
-	8650 3950 9150 3950
-Wire Wire Line
-	8650 3950 8650 4100
+	8350 3950 8350 4100
 $Comp
-L +BATT #PWR016
+L power:+BATT #PWR016
 U 1 1 5AFAAC68
 P 8450 2850
 F 0 "#PWR016" H 8450 2700 50  0001 C CNN
@@ -670,10 +449,8 @@ F 3 "" H 8450 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8450 2850 8450 2950
-Wire Wire Line
-	8450 2950 8450 3550
 $Comp
-L C_Small C4
+L scale_heli_leds-rescue:C_Small C4
 U 1 1 5AFAAE2B
 P 8650 3150
 F 0 "C4" H 8660 3220 50  0000 L CNN
@@ -684,7 +461,7 @@ F 3 "" H 8650 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 5AFAAF79
 P 8650 3350
 F 0 "#PWR017" H 8650 3100 50  0001 C CNN
@@ -704,7 +481,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 3550 8250 3550
 $Comp
-L CONN_HEADER_XH_4POS J1
+L scale_heli_leds-rescue:CONN_HEADER_XH_4POS J1
 U 1 1 5AFABBC1
 P 1500 3800
 F 0 "J1" H 1550 4050 60  0000 C CNN
@@ -716,43 +493,35 @@ F 4 "455-2243-ND" H 1550 3400 60  0001 C CNN "PN"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L power:GND #PWR018
 U 1 1 5AFAC7DF
-P 1850 4200
-F 0 "#PWR018" H 1850 3950 50  0001 C CNN
-F 1 "GND" H 1850 4050 50  0000 C CNN
-F 2 "" H 1850 4200 50  0000 C CNN
-F 3 "" H 1850 4200 50  0000 C CNN
-	1    1850 4200
+P 1850 3700
+F 0 "#PWR018" H 1850 3450 50  0001 C CNN
+F 1 "GND" H 1850 3550 50  0000 C CNN
+F 2 "" H 1850 3700 50  0000 C CNN
+F 3 "" H 1850 3700 50  0000 C CNN
+	1    1850 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1700 3950 1850 3950
-Wire Wire Line
-	1850 3950 1850 4200
 NoConn ~ 1700 3850
 NoConn ~ 1700 3750
 $Comp
-L +BATT #PWR019
+L power:+BATT #PWR019
 U 1 1 5AFAC949
-P 1850 3400
-F 0 "#PWR019" H 1850 3250 50  0001 C CNN
-F 1 "+BATT" H 1850 3540 50  0000 C CNN
-F 2 "" H 1850 3400 50  0001 C CNN
-F 3 "" H 1850 3400 50  0001 C CNN
-	1    1850 3400
+P 1950 3550
+F 0 "#PWR019" H 1950 3400 50  0001 C CNN
+F 1 "+BATT" H 1950 3690 50  0000 C CNN
+F 2 "" H 1950 3550 50  0001 C CNN
+F 3 "" H 1950 3550 50  0001 C CNN
+	1    1950 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1700 3650 1850 3650
-Wire Wire Line
-	1850 3650 1850 3400
 $Comp
-L HEADER_4POS_2.50mm J2
+L scale_heli_leds-rescue:HEADER_4POS_2.50mm J2
 U 1 1 5AFACED9
 P 9350 3800
 F 0 "J2" H 9400 4050 60  0000 C CNN
-F 1 "HEADER_4POS_2.50mm" H 9650 3550 60  0000 C CNN
+F 1 "HEADER_4POS_2.50mm" H 9700 3550 60  0000 C CNN
 F 2 "pkl_pin_headers:Pin_Header_Straight_1x04" H 9350 3800 60  0001 C CNN
 F 3 "" H 9350 3800 60  0001 C CNN
 	1    9350 3800
@@ -763,91 +532,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 3850 9150 3850
 $Comp
-L POGO_PAD_SMD RESET1
-U 1 1 5AFAD687
-P 6850 4800
-F 0 "RESET1" H 7050 4800 60  0000 C CNN
-F 1 "RESET" H 6900 4950 60  0001 C CNN
-F 2 "pkl_pads:PAD_SMD_R_1x1" H 6850 4550 60  0001 C CNN
-F 3 "" H 6850 4650 60  0000 C CNN
-	1    6850 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L POGO_PAD_SMD SCK1
-U 1 1 5AFAD991
-P 7000 4800
-F 0 "SCK1" H 7200 4800 60  0000 C CNN
-F 1 "POGO_PAD_SMD" H 7050 4950 60  0001 C CNN
-F 2 "pkl_pads:PAD_SMD_R_1x1" H 7000 4550 60  0001 C CNN
-F 3 "" H 7000 4650 60  0000 C CNN
-	1    7000 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L POGO_PAD_SMD MISO1
-U 1 1 5AFAD9E7
-P 7150 4800
-F 0 "MISO1" H 7350 4800 60  0000 C CNN
-F 1 "POGO_PAD_SMD" H 7200 4950 60  0001 C CNN
-F 2 "pkl_pads:PAD_SMD_R_1x1" H 7150 4550 60  0001 C CNN
-F 3 "" H 7150 4650 60  0000 C CNN
-	1    7150 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L POGO_PAD_SMD MOSI1
-U 1 1 5AFADA38
-P 7300 4800
-F 0 "MOSI1" H 7500 4800 60  0000 C CNN
-F 1 "POGO_PAD_SMD" H 7350 4950 60  0001 C CNN
-F 2 "pkl_pads:PAD_SMD_R_1x1" H 7300 4550 60  0001 C CNN
-F 3 "" H 7300 4650 60  0000 C CNN
-	1    7300 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L POGO_PAD_SMD GND1
-U 1 1 5AFADA90
-P 7450 4800
-F 0 "GND1" H 7650 4800 60  0000 C CNN
-F 1 "POGO_PAD_SMD" H 7500 4950 60  0001 C CNN
-F 2 "pkl_pads:PAD_SMD_R_1x1" H 7450 4550 60  0001 C CNN
-F 3 "" H 7450 4650 60  0000 C CNN
-	1    7450 4800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6850 4150 6850 4600
-Wire Wire Line
-	7000 4600 7000 3850
-Connection ~ 7000 3850
-Wire Wire Line
-	7150 3750 7150 4600
-Connection ~ 7150 3750
-Wire Wire Line
-	7300 4600 7300 3650
-Connection ~ 7300 3650
-Wire Wire Line
-	7450 4600 7450 4400
-Wire Wire Line
-	7450 4400 7650 4400
-$Comp
-L GND #PWR020
-U 1 1 5AFADE2D
-P 7650 4550
-F 0 "#PWR020" H 7650 4300 50  0001 C CNN
-F 1 "GND" H 7650 4400 50  0000 C CNN
-F 2 "" H 7650 4550 50  0000 C CNN
-F 3 "" H 7650 4550 50  0000 C CNN
-	1    7650 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7650 4400 7650 4550
-Connection ~ 8650 3950
-$Comp
-L BAT54C D1
+L scale_heli_leds-rescue:BAT54C D1
 U 1 1 5AFAEFFD
 P 1650 5800
 F 0 "D1" V 1900 5550 60  0000 C CNN
@@ -874,7 +559,7 @@ Connection ~ 1550 6300
 Wire Wire Line
 	8250 3750 9150 3750
 $Comp
-L LED_Small_ALT D2
+L scale_heli_leds-rescue:LED_Small_ALT D2
 U 1 1 5B031682
 P 3850 6300
 F 0 "D2" V 3850 6400 50  0000 L CNN
@@ -885,10 +570,10 @@ F 3 "" V 3850 6300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR020
 U 1 1 5B03399A
 P 7400 4100
-F 0 "#PWR?" H 7400 3850 50  0001 C CNN
+F 0 "#PWR020" H 7400 3850 50  0001 C CNN
 F 1 "GND" H 7400 3950 50  0000 C CNN
 F 2 "" H 7400 4100 50  0000 C CNN
 F 3 "" H 7400 4100 50  0000 C CNN
@@ -897,4 +582,58 @@ F 3 "" H 7400 4100 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	7400 3950 7400 4100
+Text Notes 7000 6150 0    60   ~ 0
+Changelist\nV1.1:\n\n1) Change polarity of battery connector\n2) Change DIODE pins BAT54\n3) Dont need ground, need VCC with LED groups - Added VBATT\n4) Removed programming pads\n
+Wire Wire Line
+	1950 3950 1950 3550
+Wire Wire Line
+	1850 3700 1850 3650
+Wire Wire Line
+	1850 3650 1700 3650
+Wire Wire Line
+	1700 3950 1950 3950
+Wire Wire Line
+	8250 3950 8350 3950
+$Comp
+L power:+BATT #PWR021
+U 1 1 5BEA12BB
+P 8950 4100
+F 0 "#PWR021" H 8950 3950 50  0001 C CNN
+F 1 "+BATT" H 8950 4240 50  0000 C CNN
+F 2 "" H 8950 4100 50  0001 C CNN
+F 3 "" H 8950 4100 50  0001 C CNN
+	1    8950 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3950 9150 4200
+Wire Wire Line
+	9150 4200 8950 4200
+Wire Wire Line
+	8950 4200 8950 4100
+NoConn ~ 6850 4150
+Wire Wire Line
+	1600 2150 1350 2150
+Wire Wire Line
+	3450 1650 3450 1900
+Wire Wire Line
+	2150 6300 2300 6300
+Wire Wire Line
+	3450 5750 3450 6300
+Wire Wire Line
+	3850 5750 4300 5750
+Wire Wire Line
+	2200 1550 2350 1550
+Wire Wire Line
+	2000 1100 2000 1450
+Wire Wire Line
+	8450 2950 8450 3550
+Wire Wire Line
+	1550 6300 1550 6550
+Wire Wire Line
+	6450 3650 7400 3650
+Wire Wire Line
+	6450 3750 7400 3750
+Wire Wire Line
+	6450 3850 7400 3850
 $EndSCHEMATC
